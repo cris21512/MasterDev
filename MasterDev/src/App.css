@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tangerine&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aguafina+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Petit+Formal+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300;400;500;600;700&display=swap');
+
+#root {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background-color: #020202;
+}
+
+a{
+  color: #5682B1;
+  font-family: "Poppins", sans-serif;
+}
+a:hover{
+  color: #739EC9;
+}
+p{
+  color: #739EC9;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Merienda', cursive;
+    line-height: normal;
+    font-weight: 400;
+    margin: 0;
+    color: #5682B1;
+    position: relative;
+    z-index: 3;
+    padding: 0;
+    text-shadow: 0 0 10px rgba(189, 189, 189, 0.849);
+    margin-bottom: 1rem;
+}
+
+span{
+  font-family: 'Edu SA Hand', cursive;
+  color: #00eaff;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto;
+}
+
+.lenis.lenis-smooth [data-lenis-scroll] {
+  will-change: transform;
+}
