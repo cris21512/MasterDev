@@ -1,0 +1,41 @@
+{
+    "Header": {
+        "Title": "¡Hola! soy Cristopher Fuentes, Ingeniero de Software especializado en Desarrollador Web"
+    },
+    "About": {
+
+    },
+    "ToolsAndFreamworks": {
+        "Title": "Habilidades y Herramientas"
+    },
+    "Projects": {
+        "Title": "Proyectos destacados"
+        },
+
+    "Certificados": {
+        "Title": "Certificados"
+    },
+    "Navbar": {
+        "About": "Sobre mí",
+        "Projects": "Proyectos",
+        "Contact": "Contacto"
+    },
+    "Footer": {
+        "Social": "Redes Sociales",
+        "Contact": "Contacto",
+        "QuickLinks": "Enlaces Rápidos"
+    },
+    "Copy": {
+        "Title": "toca para copiar",
+        "Copy": "Copiado al portapapeles",
+        "Error": "Error al copiar al portapapeles"
+    },
+    "Buttons": {
+        "CV": "Descargar mi CV",
+        "Github": "Mi Github",
+        "Linkedin": "Mi Linkedin",
+        "Gmail": "Mi Correo",
+        "ViewGit": "Ver en Github",
+        "View": "Ver Proyecto"
+    }
+}
