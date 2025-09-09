@@ -1,76 +1,26 @@
 {
     "Header": {
-        "Title": "Hi, I'm Cristopher Fuentes, a Software Engineer specialized in Web Developer",
-        "Subtitle": "• Available for freelance or full time"
-    },
+        "Title": "Hi, I'm Cristopher Fuentes, a Software Engineer specialized in Web Developer"
+        },
     "About":{
-        "Title": "About Me",
-        "Hi": "I'm 18 years old and a ",
-        "span1": "software developer specialized in frontend web development.",
-        "menext": "I discovered programming in 2023 through a short Kotlin tutorial, but it was in 2024 when I truly began my journey into building web applications.",
-        "menext2": " Since then, I've gained experience through personal projects and by collaborating with ",
-        "span2" : "companies based in the United States",
-        "includ": " including: ",
-        "ul1": "WYK Homes",
-        "ul2": "Interphase",
-        "ul3": "The official website Chito & Cris",
-        "menext3": "I'm currently focused on improving my skills, expanding my knowledge, and gaining more hands on experience in the tech industry.",
-        "span3": " I'm MasterDev… and this is my Website!"
+        
     },
     "ToolsAndFreamworks": {
         "Title": "Skills and Tools"
     },
     "Projects": {
-        "Title": "Featured Projects",
-        "Description": "Description:",
-        "Rol": "My role:",
-        "Cardinfo1": "I developed a website for WYK Homes,",
-        "spancard1": " a home construction company based in the United States,",
-        "Cardinfo2": " specialized in",
-        "spancard2": " Framing, Roofing, Remodeling, Siding, and Drywal",
-        "Cardinfo3": ". The main goal was to improve the visibility of their services and make it easier for",
-        "spancard3": " potential clients.",
-        "Cardinfo4": " to get in touch.",
-        "Roleinfo1": "I was fully responsible for the entire website development  ",
-        "Roleinfo2": ". I worked directly with the client to understand their needs and deliver a",
-        "Spanrole1": " (frontend, backend, UX, and design)",
-        "Spanrole2": " functional and visually appealing solution"
-    },
-    "Crazydev": {
-        "span1": "Crazydev Studio ",
-        "Info1": "is a site that reflectsmy approach to ",
-        "span2": "modern web development ",
-        "and": "and a ",
-        "span3": "clear user experience",
-        "Info2": "It was crafted as an elegant presentation card, width a clean structure, ",
-        "span4": "smooth interactions ",
-        "Info3": "and a strong focus on ",
-        "span5": "visual aesthetics. ",
-        "Info4": "It stands out for its ",
-        "span6": "intuitive navigation, responsive design, use of readable typography, " ,
-        "span7": "sober professional color palette ",
-        "Info5": "In the project section, each work is showcased with attention to the",
-        "span8": " visual and fuctional",
-        "Info6": " aspects, reinforcing the idea that code can also be art."
-    },
-    "Roleinfo": {
-        "Roleinfo1": "I was in charge of building the entire frontend, based on the design they provided. I also implemented part of the backend, creating a functional, ",
-        "Roleinfo2": ". especially optimized for their audience, who mostly visit the site from their",
-        "Spanrole1": " fast, and highly responsive solution",
-        "Spanrole2": " mobile devices"
+        "Title": "Featured Projects"
     },
     "Certificados":{
         "Title": "Certificates"
     },
     "Navbar":{
-        "About": "About",
         "Projects": "Projects",
         "Contact": "Contact"
     },
     "Footer": {
         "Social": "Social Networks",
-        "Contact": "Contact",
-        "QuickLinks": "Quick Links"
+        "Contact": "Contact"
     },
     "Copy":{
         "Title": "Tap to copy",

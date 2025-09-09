@@ -5,19 +5,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Edu+SA+Hand&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300;400;500;600;700&display=swap');
 
+
 #root {
   width: 100%;
   padding: 0;
   margin: 0;
 }
 
-body{
+body {
+  margin: 0;
+  font-family: 'Merienda', cursive, sans-serif;
   background-color: #020202;
 }
+
 
 a{
   color: #5682B1;
   font-family: "Poppins", sans-serif;
+  font-size: 9rem;
 }
 a:hover{
   color: #739EC9;
@@ -26,6 +31,7 @@ p{
   color: #739EC9;
   font-family: "Poppins", sans-serif;
   font-weight: 300;
+  font-size: large;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -39,6 +45,7 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0;
     text-shadow: 0 0 10px rgba(189, 189, 189, 0.849);
     margin-bottom: 1rem;
+    font-size: large;
 }
 
 span{

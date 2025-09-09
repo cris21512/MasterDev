@@ -3,7 +3,7 @@
         "Title": "¡Hola! soy Cristopher Fuentes, Ingeniero de Software especializado en Desarrollador Web"
     },
     "About": {
-
+        
     },
     "ToolsAndFreamworks": {
         "Title": "Habilidades y Herramientas"
@@ -16,14 +16,12 @@
         "Title": "Certificados"
     },
     "Navbar": {
-        "About": "Sobre mí",
         "Projects": "Proyectos",
         "Contact": "Contacto"
     },
     "Footer": {
         "Social": "Redes Sociales",
-        "Contact": "Contacto",
-        "QuickLinks": "Enlaces Rápidos"
+        "Contact": "Contacto"    
     },
     "Copy": {
         "Title": "toca para copiar",
