@@ -1,7 +1,9 @@
 import React, { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 
-import Prism from "../../Backgrounds/Prism";
+import Prism from "../../Backgrounds/Prism/Prism";
+import LiquidEther from "../../Backgrounds/LiquidEther/LiquidEther";
+
 import "./Home.css";
 
 const Home = () => {
@@ -18,16 +20,22 @@ const Home = () => {
                         overflow: "hidden",
                     }}
                 >
-                    <Prism
-                        animationType="hover"
-                        timeScale={0.5}
-                        height={3.5}
-                        baseWidth={5.5}
-                        scale={3.6}
-                        hueShift={0}
-                        colorFrequency={1}
-                        noise={0}
-                        glow={0.8}
+                    <LiquidEther
+                        colors={["#5682B1", "#739EC9", "rgba(212, 252, 255, 1)"]}
+                        mouseForce={20}
+                        cursorSize={100}
+                        isViscous={true}
+                        viscous={30}
+                        iterationsViscous={32}
+                        iterationsPoisson={32}
+                        resolution={0.5}
+                        isBounce={false}
+                        autoDemo={true}
+                        autoSpeed={0.5}
+                        autoIntensity={2.2}
+                        takeoverDuration={0.25}
+                        autoResumeDelay={3000}
+                        autoRampDuration={0.6}
                     />
                 </div>
                 <section className="Home-content">
