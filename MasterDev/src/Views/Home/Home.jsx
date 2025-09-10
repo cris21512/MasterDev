@@ -1,8 +1,9 @@
 import React, { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 
-import Prism from "../../Backgrounds/Prism/Prism";
 import LiquidEther from "../../Backgrounds/LiquidEther/LiquidEther";
+
+import MasterDev from '../../assets/Images/Logos/MasterDev.webp'
 
 import "./Home.css";
 
@@ -39,7 +40,7 @@ const Home = () => {
                     />
                 </div>
                 <section className="Home-content">
-                    <h1> hola a todos </h1>
+                    <img src={MasterDev} alt="MasterDev" className="img-home" />
                 </section>
             </div>
         </>

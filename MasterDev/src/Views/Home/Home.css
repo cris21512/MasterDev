@@ -11,3 +11,9 @@
     position: absolute;
     z-index: 10;
 }
+
+.img-home{
+    width: 300px;
+    height: auto;
+    mask-repeat: no-repeat;
+}
