@@ -6,3 +6,8 @@
     align-items: center;
     flex-direction: row;
 }
+
+.Home-content{
+    position: absolute;
+    z-index: 10;
+}
