@@ -19,6 +19,7 @@ const Home = () => {
                         height: "100vh",
                         position: "relative",
                         overflow: "hidden",
+                        zIndex: 0
                     }}
                 >
                     <LiquidEther
@@ -40,7 +41,9 @@ const Home = () => {
                     />
                 </div>
                 <section className="Home-content">
-                    <img src={MasterDev} alt="MasterDev" className="img-home" />
+                    <div className="column-home">
+                        <img src={MasterDev} alt="MasterDev" className="img-home" />
+                    </div>
                 </section>
             </div>
         </>

@@ -10,10 +10,21 @@
 .Home-content{
     position: absolute;
     z-index: 10;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
 }
 
 .img-home{
     width: 300px;
     height: auto;
     mask-repeat: no-repeat;
+}
+
+.content-home{
+    min-height: 100vh;
+    width: 100%;
 }
