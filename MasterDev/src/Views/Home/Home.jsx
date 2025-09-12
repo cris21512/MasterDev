@@ -42,7 +42,7 @@ const Home = () => {
                 </div>
                     <div className="content-home">
                         <img src={MasterDev} alt="MasterDev" className="img-home" />
-                        <h1>MasterDev</h1>
+                        <h1 style={{ fontSize: '4rem' }}>MasterDev</h1>
                         <p>Software Engineer & Design </p>
                     </div>
             </div>
