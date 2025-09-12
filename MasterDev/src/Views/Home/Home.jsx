@@ -17,9 +17,9 @@ const Home = () => {
                     style={{
                         width: "100%",
                         height: "100vh",
-                        position: "relative",
+                        position: "absolute",
                         overflow: "hidden",
-                        zIndex: 0
+                        zIndex: 1
                     }}
                 >
                     <LiquidEther
@@ -40,11 +40,11 @@ const Home = () => {
                         autoRampDuration={0.6}
                     />
                 </div>
-                <section className="Home-content">
-                    <div className="column-home">
+                    <div className="content-home">
                         <img src={MasterDev} alt="MasterDev" className="img-home" />
+                        <h1>MasterDev</h1>
+                        <p>Software Engineer & Design </p>
                     </div>
-                </section>
             </div>
         </>
     );

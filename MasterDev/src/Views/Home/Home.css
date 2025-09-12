@@ -1,10 +1,8 @@
-.Home-style{    
-    min-height: 100vh;
+.Home-style{      
+    position: relative;
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
+    height: 100vh;
+    overflow: hidden;
 }
 
 .Home-content{
@@ -19,12 +17,21 @@
 }
 
 .img-home{
-    width: 300px;
+    width: 420px;
     height: auto;
-    mask-repeat: no-repeat;
+    margin-bottom: 20px;
 }
 
 .content-home{
     min-height: 100vh;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 0;
+    text-align: center;
 }
+
+
