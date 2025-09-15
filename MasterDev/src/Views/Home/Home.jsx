@@ -5,6 +5,11 @@ import LiquidEther from "../../Backgrounds/LiquidEther/LiquidEther";
 
 import MasterDev from '../../assets/Images/Logos/MasterDev.webp'
 
+import CV from '../../assets/Icons/Home/CV.svg'
+import Facebook from '../../assets/Icons/Home/facebook.svg'
+import Github from '../../assets/Icons/Home/github.svg'
+import Upwork from '../../assets/Icons/Home/Upwork.png'
+
 import "./Home.css";
 
 const Home = () => {
@@ -44,6 +49,21 @@ const Home = () => {
                         <img src={MasterDev} alt="MasterDev" className="img-home" />
                         <h1 style={{ fontSize: '4rem' }}>MasterDev</h1>
                         <p>Software Engineer & Design </p>
+
+                        <div className="icons-home">
+                            <div className="icon-home">
+                                <img src={Facebook} alt="Facebook" className="icon-size" />
+                            </div>
+                            <div className="icon-home">
+                                <img src={CV} alt="CV" className="icon-size" />
+                            </div>
+                            <div className="icon-home">
+                                <img src={Github} alt="Github" className="icon-size" />
+                            </div>
+                            <div className="icon-home">
+                                <img src={Upwork} alt="Upwork" className="icon-size" />
+                            </div>
+                        </div>
                     </div>
             </div>
         </>
