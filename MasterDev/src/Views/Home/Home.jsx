@@ -53,7 +53,7 @@ const Home = () => {
                         <img src={MasterDev} alt="MasterDev" className="img-home" />
                         <h1 style={{ fontSize: '4rem' }}>MasterDev</h1>
                         <TextType 
-                        text={["Software Engineer & Design", "' Lo que imagines, yo lo programo.'", "' Whatever you imagine, I program it.'"]}
+                        text={["Software Engineer & Design", "Ingeniero de Software & Diseñador", "' Lo que imagines, yo lo programo.'", "' Whatever you imagine, I program it.'"]}
                         typingSpeed={75}
                         pauseDuration={1500}
                         showCursor={true}
