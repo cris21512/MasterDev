@@ -156,7 +156,7 @@ const TextType = ({
       className: `text-type ${className}`,
       ...props
     },
-    <span className="text-type__content" style={{ color: getCurrentTextColor() }}>
+    <span className="text-type__content" style={{ color: getCurrentTextColor(), fontSize: '1.1rem' }}>
       {displayedText}
     </span>,
     showCursor && (
