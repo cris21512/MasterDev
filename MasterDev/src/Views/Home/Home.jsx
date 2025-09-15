@@ -6,9 +6,13 @@ import LiquidEther from "../../Backgrounds/LiquidEther/LiquidEther";
 import MasterDev from '../../assets/Images/Logos/MasterDev.webp'
 
 import CV from '../../assets/Icons/Home/CV.svg'
-import Facebook from '../../assets/Icons/Home/facebook.svg'
+import Linkedin from '../../assets/Icons/Home/linkedin.svg'
 import Github from '../../assets/Icons/Home/github.svg'
 import Upwork from '../../assets/Icons/Home/Upwork.png'
+
+import CVMD from '../../assets/CristopherMD_CV.pdf'
+
+import TextType from "../../TextAnimations/TextType/TextType";
 
 import "./Home.css";
 
@@ -24,7 +28,7 @@ const Home = () => {
                         height: "100vh",
                         position: "absolute",
                         overflow: "hidden",
-                        zIndex: 1
+                        zIndex: 0
                     }}
                 >
                     <LiquidEther
@@ -48,21 +52,27 @@ const Home = () => {
                     <div className="content-home">
                         <img src={MasterDev} alt="MasterDev" className="img-home" />
                         <h1 style={{ fontSize: '4rem' }}>MasterDev</h1>
-                        <p>Software Engineer & Design </p>
+                        <TextType 
+                        text={["Software Engineer & Design", "' Lo que imagines, yo lo programo.'", "' Whatever you imagine, I program it.'"]}
+                        typingSpeed={75}
+                        pauseDuration={1500}
+                        showCursor={true}
+                        cursorCharacter="</>"
+                        />
 
                         <div className="icons-home">
-                            <div className="icon-home">
-                                <img src={Facebook} alt="Facebook" className="icon-size" />
-                            </div>
-                            <div className="icon-home">
+                            <a className="icon-home" href={CVMD} target="_blank" rel="noreferrer" download="CristopherMD_CV.pdf">
                                 <img src={CV} alt="CV" className="icon-size" />
-                            </div>
-                            <div className="icon-home">
+                            </a>
+                            <a className="icon-home" href="https://www.linkedin.com/in/cristopherfuentes/" target="_blank" rel="noreferrer">
+                                <img src={Linkedin} alt="Linkedin" className="icon-size" />
+                            </a>
+                            <a className="icon-home" href="https://github.com/cris21512" target="_blank" rel="noreferrer">
                                 <img src={Github} alt="Github" className="icon-size" />
-                            </div>
-                            <div className="icon-home">
+                            </a>
+                            <a className="icon-home" href="https://www.upwork.com/freelancers/masterdev" target="_blank" rel="noreferrer">
                                 <img src={Upwork} alt="Upwork" className="icon-size" />
-                            </div>
+                            </a>
                         </div>
                     </div>
             </div>
