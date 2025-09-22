@@ -39,7 +39,7 @@ const Projects = () => {
                 >
                     <div>
                         <p style={{ margin: '6px 0 0', opacity: 0.8 }}>
-                            A glowing, animated border wrapper.
+                            A glowing, animated border wrapper
                         </p>
                     </div>
                 </ElectricBorder>
