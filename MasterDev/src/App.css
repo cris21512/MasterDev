@@ -60,3 +60,12 @@ span{
 .lenis.lenis-smooth [data-lenis-scroll] {
   will-change: transform;
 }
+
+.about-title{
+    line-height: normal;
+    font-size: 3rem;
+    font-weight: 400;
+    justify-content: center;
+    text-align: left;
+    position: relative;
+}
