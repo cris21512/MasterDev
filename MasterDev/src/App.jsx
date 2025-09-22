@@ -4,6 +4,7 @@ import './App.css'
 import Home from './Views/Home/Home'
 import About from './Views/About/About'
 import Tools from './Views/Tools/Tools'
+import Projects from './Views/Projects/Projects'
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
       <Home />
       <About />
       <Tools />
+      <Projects />
     </>
   )
 }
