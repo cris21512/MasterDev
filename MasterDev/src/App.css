@@ -17,15 +17,6 @@ body {
   background-color: #020202;
 }
 
-
-a{
-  color: #5682B1;
-  font-family: "Poppins", sans-serif;
-  font-size: 9rem;
-}
-a:hover{
-  color: #739EC9;
-}
 p{
   color: #739EC9;
   font-family: "Poppins", sans-serif;
@@ -68,4 +59,9 @@ span{
     justify-content: center;
     text-align: left;
     position: relative;
+}
+
+a{
+    text-decoration: none;
+
 }
