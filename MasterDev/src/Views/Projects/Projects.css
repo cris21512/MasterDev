@@ -36,3 +36,23 @@
     text-align: center;
     align-items: center;
 }
+
+@media (max-width: 1024px) {
+    .Center-projects {
+        justify-content: center;
+        gap: 3rem;
+        flex-wrap: wrap; /* permite que salten de fila */
+    }
+}
+
+@media (max-width: 768px) {
+    .Center-projects {
+        flex-direction: column; /* en móviles ya en columna */
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .box-content {
+        max-width: 90%; /* ocupa casi todo el ancho del móvil */
+    }
+}
