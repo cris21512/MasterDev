@@ -7,8 +7,8 @@ const Footer = () => {
             <h1 className="title-footer">MasterDev - DesignDev</h1>
             <div className="footer-container">
                 <div className="footer-section">
-                    <h3>Ubicacion</h3>
-                    <span>Guatemala</span>
+                    <h3>Ubication</h3>
+                    <p>Guatemala</p>
                 </div>
                 <div className="footer-section">
                     <h1>Contact</h1>
@@ -16,8 +16,8 @@ const Footer = () => {
                     <p>(+502) 3955-9554</p>
                 </div>
                 <div className="footer-section">
-                    <h3>Redes Sociales</h3>
-                    <p><a href="" >Instagram</a></p>
+                    <h3>Socials Links</h3>
+                    <p><a href="" >Upwork</a></p>
                     <p><a href="" >Facebook</a></p>
                 </div>
             </div>
