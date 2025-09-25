@@ -4,7 +4,7 @@ import './Footer.css'
 const Footer = () => {
     return(
         <div className="Footer-style">
-            <h1 style={{ fontSize: '5rem' }}>MasterDev - DesignDev</h1>
+            <h1 className="title-footer">MasterDev - DesignDev</h1>
             <div className="footer-container">
                 <div className="footer-section">
                     <h3>Ubicacion</h3>

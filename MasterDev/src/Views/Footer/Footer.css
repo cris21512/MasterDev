@@ -7,6 +7,10 @@
     flex-direction: column;
 }
 
+.title-footer{
+  font-size: 5rem;
+}
+
 .footer-container{
     display: flex;
     justify-content: space-around;
@@ -43,8 +47,20 @@
 
 /* Phones */
 @media (max-width: 480px) {
+  .Footer-style{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
   h1, h2, h3 {
-    font-size: 1.3rem;
+    font-size: 1rem;
+  }
+
+  .title-footer{
+    font-size: 3.5rem;
+    align-items: center;
+    text-align: center;
   }
 
   .footer-container {

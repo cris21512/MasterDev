@@ -27,12 +27,24 @@ const Projects = () => {
                     speed={1}
                     chaos={0.5}
                     thickness={2}
-                    style={{ borderRadius: 16, width: '500px', padding: '12px', marginTop: '20px', height: '1200px', justifyContent: 'center', alignItems: 'center', display: 'flex', flexDirection: 'column' }}
+                    style={{ 
+                        borderRadius: 16,
+                        width: '90%',
+                        maxWidth: '500px',
+                        padding: '10px',
+                        marginTop: '40px',
+                        height: 'max-content',
+                        minHeight: '400px',
+                        justifyContent: 'center',
+                        alignItems: 'center',
+                        display: 'flex',
+                        flexDirection: 'column',
+                    }}
                 >
                     <div className="box-content">
-                        <img src={Crazydev} alt="Crazydev" style={{ width: '450px', borderRadius: '12px' }} />
-                        <h1 style={{ fontSize: '3rem' }}>CrazyDev</h1>
-                        <p style={{ margin: '6px 0 0', opacity: 0.8, paddingTop: '3rem' }}>
+                        <img src={Crazydev} alt="Crazydev" className="img-project" />
+                        <h1 className="name-project" >CrazyDev</h1>
+                        <p style={{ margin: '6px 0 0', opacity: 0.8}}>
                             A personal website that embodies my approach to modern web development and user-centered design. Built as an elegant digital business card, it features a clean structure, smooth interactions, and a strong focus on visual aesthetics. The site stands out for its intuitive navigation, responsive design, legible typography, and a professional color palette. In the projects section, each work is presented with careful attention to both functionality and visual detail—reinforcing the idea that code can also be art.
                         </p>
                         <div className="buttons-style">
@@ -46,12 +58,24 @@ const Projects = () => {
                     speed={1}
                     chaos={0.5}
                     thickness={2}
-                    style={{ borderRadius: 16, width: '500px', padding: '12px', marginTop: '20px', height: '1200px', justifyContent: 'center', alignItems: 'center', display: 'flex', flexDirection: 'column' }}
+                    style={{ 
+                        borderRadius: 16,
+                        width: '90%',
+                        maxWidth: '500px',
+                        padding: '10px',
+                        marginTop: '40px',
+                        height: 'max-content',
+                        minHeight: '400px',
+                        justifyContent: 'center',
+                        alignItems: 'center',
+                        display: 'flex',
+                        flexDirection: 'column',
+                    }}
                 >
                     <div className="box-content">
-                        <img src={Otis} alt="Crazydev" style={{ width: '450px', borderRadius: '12px' }} />
-                        <h1 style={{ fontSize: '3rem' }}>Otis Valen</h1>
-                        <p style={{ margin: '6px 0 0', opacity: 0.8, paddingTop: '3rem' }}>
+                        <img src={Otis} alt="Crazydev" className="img-project" />
+                        <h1 className="name-project" >Otis Valen</h1>
+                        <p style={{ margin: '6px 0 0', opacity: 0.8 }}>
                             A dynamic website that highlights my ability to bring ideas to life through clean code and engaging user experiences. My role focused on frontend development, animations, SEO optimization, and ensuring the site feels both interactive and enjoyable to explore. The design was a collaborative effort with a friend, and together we built a project that is both visually striking and impactful. The site demonstrates how thoughtful development and teamwork can transform ideas.
                         </p>
                         <div className="buttons-style">

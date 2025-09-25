@@ -18,6 +18,15 @@
     padding-bottom: 6rem;
 }
 
+.name-project{
+    font-size: 3rem;
+}
+
+.img-project{
+    width: 450px;
+    border-radius: 12px;
+}
+
 .box-content{
     width: 100%;
     display: flex;
@@ -50,6 +59,14 @@
         flex-direction: column; /* en móviles ya en columna */
         align-items: center;
         gap: 2rem;
+    }
+
+    .img-project{
+        width: 300px;
+        border-radius: 12px;
+    }
+    .name-project{
+        font-size: 2rem;
     }
 
     .box-content {
