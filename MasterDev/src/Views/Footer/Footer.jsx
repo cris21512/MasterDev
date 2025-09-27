@@ -5,18 +5,18 @@ const Footer = () => {
 
     const copiarAlPortapapeles = async () => {
         try {
-            await navigator.clipboard.writeText('cristopherfm21.5@gmail.com');
-            alert(t("Copy.Copy"));
+            await navigator.clipboard.writeText('masterkingdev215@gmail.com');
+            alert("Copied to clipboard!");
         } catch (err) {
-            console.error(t("Copy.Error"), err);
+            console.error("Error", err);
         }
     }  
     const copiarNumero = async () =>{
     try{
         await navigator.clipboard.writeText('3955 9554');
-        alert(t("Copy.Copy"));
+        alert("Copied to clipboard!");
     } catch (err) {
-        console.error(t("Copy.Error"), err);
+        console.error("Error", err);
     }
   }
 
@@ -30,8 +30,8 @@ const Footer = () => {
                 </div>
                 <div className="footer-section">
                     <h1>Contact</h1>
-                    <h3><a href="mailto:masterkingdev215@gmail.com">masterkingdev215@gmail.com</a></h3>
-                    <p>(+502) 3955-9554</p>
+                    <h3 onClick={copiarAlPortapapeles} ><a>masterkingdev215@gmail.com</a></h3>
+                    <p onClick={copiarNumero}>(+502) 3955-9554</p>
                 </div>
                 <div className="footer-section">
                     <h3>Socials Links</h3>
