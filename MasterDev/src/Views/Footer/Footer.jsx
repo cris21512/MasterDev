@@ -10,7 +10,7 @@ const Footer = () => {
         } catch (err) {
             console.error("Error", err);
         }
-    }  
+    }
     const copiarNumero = async () =>{
     try{
         await navigator.clipboard.writeText('3955 9554');
@@ -39,7 +39,7 @@ const Footer = () => {
                     <p><a href="https://www.facebook.com/share/1EG6F9GGUo/" target="_blank" rel="noopener noreferrer" >Facebook</a></p>
                 </div>
             </div>
-            <p>Made with ❤️ by MasterDev</p>
+            <p>Made with ❤️ by <span>MasterDev</span></p>
         </div>
     )
 }
