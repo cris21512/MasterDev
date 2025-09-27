@@ -34,7 +34,7 @@ const Footer = () => {
                     <p onClick={copiarNumero}>(+502) 3955-9554</p>
                 </div>
                 <div className="footer-section">
-                    <h3>Socials Links</h3>
+                    <h3>Social Links</h3>
                     <p><a href="https://www.upwork.com/freelancers/~0105b56b27037797a6" target="_blank" rel="noopener noreferrer" >Upwork</a></p>
                     <p><a href="https://www.facebook.com/share/1EG6F9GGUo/" target="_blank" rel="noopener noreferrer" >Facebook</a></p>
                 </div>
