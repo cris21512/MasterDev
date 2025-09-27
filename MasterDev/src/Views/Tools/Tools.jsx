@@ -55,7 +55,12 @@ const Tools = () => {
             >
                 Tech Stack
             </ScrollFloat>
-            <div style={{ height: '200px', position: 'relative', overflow: 'hidden', width: '100%' }}>                                     
+            <div style={{ 
+                height: '200px', 
+                position: 'relative', 
+                overflow: 'hidden', 
+                width: '100%' }}
+                >                                     
                 <LogoLoop
                     logos={imageLogos}
                     speed={120}
