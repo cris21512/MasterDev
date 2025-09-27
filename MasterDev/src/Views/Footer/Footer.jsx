@@ -2,6 +2,24 @@ import React from "react";
 import './Footer.css'
 
 const Footer = () => {
+
+    const copiarAlPortapapeles = async () => {
+        try {
+            await navigator.clipboard.writeText('cristopherfm21.5@gmail.com');
+            alert(t("Copy.Copy"));
+        } catch (err) {
+            console.error(t("Copy.Error"), err);
+        }
+    }  
+    const copiarNumero = async () =>{
+    try{
+        await navigator.clipboard.writeText('3955 9554');
+        alert(t("Copy.Copy"));
+    } catch (err) {
+        console.error(t("Copy.Error"), err);
+    }
+  }
+
     return(
         <div className="Footer-style">
             <h1 className="title-footer">MasterDev - DesignDev</h1>
