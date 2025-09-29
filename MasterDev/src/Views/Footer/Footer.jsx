@@ -30,8 +30,16 @@ const Footer = () => {
                 </div>
                 <div className="footer-section">
                     <h1>Contact</h1>
-                    <h3 onClick={copiarAlPortapapeles} ><a>masterkingdev215@gmail.com</a></h3>
-                    <p onClick={copiarNumero}>(+502) 3955-9554</p>
+                    <h3 onClick={copiarAlPortapapeles} >
+                        <a>
+                            masterkingdev215@gmail.com 
+                            <br /> 'Tap to copy'
+                        </a>
+                    </h3>
+                    <p onClick={copiarNumero}>
+                        (+502) 3955-9554 <br />
+                        'Tap to copy'
+                    </p>
                 </div>
                 <div className="footer-section">
                     <h3>Social Links</h3>
