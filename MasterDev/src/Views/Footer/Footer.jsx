@@ -1,6 +1,8 @@
 import React from "react";
 import './Footer.css'
 
+import Copy from '../../Components/Copy/Copy'
+
 const Footer = () => {
 
     const copiarAlPortapapeles = async () => {
@@ -26,29 +28,37 @@ const Footer = () => {
             <div className="footer-container">
                 <div className="footer-section">
                     <h3>Ubication</h3>
-                    <p>Guatemala</p>
+                    <Copy><p>Guatemala</p></Copy>
                 </div>
                 <div className="footer-section">
                     <h1>Contact</h1>
                     <h3 onClick={copiarAlPortapapeles} >
-                        <a>
+                        <Copy>
+                            <a>
                             masterkingdev215@gmail.com 
                             <br /> 'Tap to copy'
-                        </a>
+                            </a>
+                        </Copy>
                     </h3>
-                    <p onClick={copiarNumero}>
-                        (+502) 3955-9554 <br />
-                        'Tap to copy'
-                    </p>
+                    <Copy>
+                        <p onClick={copiarNumero}>
+                            (+502) 3955-9554 <br />
+                            'Tap to copy'
+                        </p>
+                    </Copy>
                 </div>
                 <div className="footer-section">
                     <h3>Social Links</h3>
-                    <p>
-                        <a href="https://www.upwork.com/freelancers/~0105b56b27037797a6" target="_blank" rel="noopener noreferrer" >Upwork</a>
-                    </p>
-                    <p>
-                        <a href="https://www.facebook.com/share/1EG6F9GGUo/" target="_blank" rel="noopener noreferrer" >Facebook</a>
-                    </p>
+                    <Copy>
+                        <p>
+                            <a href="https://www.upwork.com/freelancers/~0105b56b27037797a6" target="_blank" rel="noopener noreferrer" >Upwork</a>
+                        </p>
+                    </Copy>
+                    <Copy>
+                        <p>
+                            <a href="https://www.facebook.com/share/1EG6F9GGUo/" target="_blank" rel="noopener noreferrer" >Facebook</a>
+                        </p>
+                    </Copy>
                 </div>
             </div>
             <p>Made with ❤️ by <span>MasterDev</span></p>
