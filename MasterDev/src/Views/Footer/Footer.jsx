@@ -27,8 +27,8 @@ const Footer = () => {
             <h1 className="title-footer">MasterDev - DesignDev</h1>
             <div className="footer-container">
                 <div className="footer-section">
-                    <h3>Ubication</h3>
-                    <Copy><p>Guatemala</p></Copy>
+                    <h3>Available for</h3>
+                    <Copy><p>Full-time or Freelance</p></Copy>
                 </div>
                 <div className="footer-section">
                     <h1>Contact</h1>
@@ -57,6 +57,11 @@ const Footer = () => {
                     <Copy>
                         <p>
                             <a href="https://www.facebook.com/share/1EG6F9GGUo/" target="_blank" rel="noopener noreferrer" >Facebook</a>
+                        </p>
+                    </Copy>
+                    <Copy>
+                        <p>
+                            <a href="https://github.com/cris21512" target="_blank" rel="noopener noreferrer" >Github</a>
                         </p>
                     </Copy>
                 </div>

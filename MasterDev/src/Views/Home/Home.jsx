@@ -7,7 +7,7 @@ import MasterDev from '../../assets/Images/Logos/MasterDev.webp'
 
 import CV from '../../assets/Icons/Home/CV.svg'
 import Linkedin from '../../assets/Icons/Home/linkedin.svg'
-import Github from '../../assets/Icons/Home/github.svg'
+import Gmail from '../../assets/Icons/Home/Gmail.svg'
 import Upwork from '../../assets/Icons/Home/Upwork.png'
 
 import CVMD from '../../assets/CristopherMD_CV.pdf'
@@ -67,8 +67,8 @@ const Home = () => {
                             <a className="icon-home" href="https://www.linkedin.com/in/cristopherfuentes/" target="_blank" rel="noreferrer">
                                 <img src={Linkedin} alt="Linkedin" className="icon-size" />
                             </a>
-                            <a className="icon-home" href="https://github.com/cris21512" target="_blank" rel="noreferrer">
-                                <img src={Github} alt="Github" className="icon-size" />
+                            <a className="icon-home" href="mailto:masterkingdev215@gmail.com" target="_blank" rel="noreferrer">
+                                <img src={Gmail} alt="Github" className="icon-size" />
                             </a>
                             <a className="icon-home" href="https://www.upwork.com/freelancers/masterdev" target="_blank" rel="noreferrer">
                                 <img src={Upwork} alt="Upwork" className="icon-size" />
