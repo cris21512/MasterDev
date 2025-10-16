@@ -36,7 +36,8 @@ const Footer = () => {
                         <Copy>
                             <a>
                             masterkingdev215@gmail.com 
-                            <br /> 'Tap to copy'
+                            <br /> 
+                            'Tap to copy'
                             </a>
                         </Copy>
                     </h3>
