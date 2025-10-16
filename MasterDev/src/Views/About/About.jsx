@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
 
-import Master from '../../assets/Images/Logos/Master.webp'
+import Master from '../../assets/Images/Logos/Masterd.webp'
 
 import ScrollFloat from "../../Components/ScrollFloat/ScrollFloat";
 
