@@ -5,6 +5,8 @@ import ScrollFloat from "../../Components/ScrollFloat/ScrollFloat";
 
 import LogoLoop from '../../Components/LogoLoop/LogoLoop';
 
+import { useTranslation } from "react-i18next";
+
 import React from '../../assets/Icons/Tools/react.svg';
 import JS from '../../assets/Icons/Tools/javascript.svg';
 import CSS from '../../assets/Icons/Tools/css.svg';
@@ -44,6 +46,9 @@ const imageLogos = [
 ];
 
 const Tools = () => {
+
+    const [t, i18n] = useTranslation("global");
+
     return (
         <div className="Tools-style">
             <ScrollFloat
@@ -53,7 +58,7 @@ const Tools = () => {
                 scrollEnd="bottom bottom-=40%"
                 stagger={0.03}
             >
-                Tech Stack
+                {t("Tools.Title")}
             </ScrollFloat>
             <div style={{ 
                 height: '200px', 
