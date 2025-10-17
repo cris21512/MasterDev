@@ -7,7 +7,11 @@ import ScrollFloat from "../../Components/ScrollFloat/ScrollFloat";
 
 import Copy from '../../Components/Copy/Copy'
 
+import { useTranslation } from "react-i18next";
+
 const About = () => {
+    const [t, i18n] = useTranslation("global");
+
     return (
         <div className="About-style">
             <div className="Center-about">
@@ -23,12 +27,12 @@ const About = () => {
                     </ScrollFloat>
                     <Copy>
                     <p>
-                        I'm 18 years old and a software developer specialized in frontend web development. I discovered programming in 2023 through a short Kotlin tutorial, but it was in 2024 when I truly began my journey into building web applications. Since then, I've gained experience through personal projects and by collaborating with companies based in the United States including:
+                        {t("About.text1")}
                         <br />• Crazydev
                         <br />• WYK Homes
                         <br />• Otis-Valen
                         <br />
-                        I'm currently focused on improving my skills, expanding my knowledge, and gaining more hands-on experience in the tech industry.💻 I'm MasterDev… and this is my Website!
+                        I'm currently focused on improving my skills, expanding my knowledge, and gaining more hands-on experience in the tech industry.💻 I'm MasterDev… And this is my Website!
                     </p>
                     </Copy>
                 </div>
