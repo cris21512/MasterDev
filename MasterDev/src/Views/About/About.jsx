@@ -10,6 +10,7 @@ import Copy from '../../Components/Copy/Copy'
 import { useTranslation } from "react-i18next";
 
 const About = () => {
+
     const [t, i18n] = useTranslation("global");
 
     return (
@@ -23,7 +24,7 @@ const About = () => {
                     scrollEnd="bottom bottom-=40%"
                     stagger={0.03}
                     >
-                    About me
+                    {t("About.Title")}
                     </ScrollFloat>
                     <Copy>
                     <p>
@@ -32,7 +33,7 @@ const About = () => {
                         <br />• WYK Homes
                         <br />• Otis-Valen
                         <br />
-                        I'm currently focused on improving my skills, expanding my knowledge, and gaining more hands-on experience in the tech industry.💻 I'm MasterDev… And this is my Website!
+                        {t("About.text2")}
                     </p>
                     </Copy>
                 </div>
