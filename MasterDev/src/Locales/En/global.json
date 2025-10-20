@@ -5,7 +5,11 @@
         "text2": "I'm currently focused on improving my skills, expanding my knowledge, and gaining more hands-on experience in the tech industry.💻 I'm MasterDev… And this is my Website!"
     },
     "Tools": {
-        "Title": "Tech Stack"
+        "Title": "Tech Stack",
+        "Project1": "A personal website that embodies my approach to modern web development and user-centered design. Built as an elegant digital business card, it features a clean structure, smooth interactions, and a strong focus on visual aesthetics. The site stands out for its intuitive navigation, responsive design, legible typography, and a professional color palette. In the projects section, each work is presented with careful attention to both functionality and visual detail—reinforcing the idea that code can also be art.",
+        "Project2": "A dynamic website that highlights my ability to bring ideas to life through clean code and engaging user experiences. My role focused on frontend development, animations, SEO optimization, and ensuring the site feels both interactive and enjoyable to explore. The design was a collaborative effort with a friend, and together we built a project that is both visually striking and impactful. The site demonstrates how thoughtful development and teamwork can transform ideas.",
+        "View": "View Project",
+        "ViewGit": "View on Github"
     },
     "Projects": {
         "Title": "Featured Projects"

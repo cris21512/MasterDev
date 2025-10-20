@@ -5,7 +5,11 @@
         "text2": "Actualmente estoy enfocado en mejorar mis habilidades, expandir mi conocimiento y ganar más experiencia práctica en la industria tecnológica.💻 Soy MasterDev… ¡Y este es mi sitio web!" 
     },
     "Tools": {
-        "Title": "Stack Tecnológico"
+        "Title": "Stack Tecnológico",
+        "Project1": "Un sitio web personal que encarna mi enfoque hacia el desarrollo web moderno y el diseño centrado en el usuario. Construido como una elegante tarjeta de presentación digital, presenta una estructura limpia, interacciones suaves y un fuerte enfoque en la estética visual. El sitio se destaca por su navegación intuitiva, diseño responsivo, tipografía legible y una paleta de colores profesional. En la sección de proyectos, cada trabajo se presenta con una cuidadosa atención tanto a la funcionalidad como al detalle visual, reforzando la idea de que el código también puede ser arte.",
+        "Project2": "Un sitio web dinámico que destaca mi capacidad para dar vida a las ideas a través de un código limpio y experiencias de usuario atractivas. Mi rol se centró en el desarrollo frontend, animaciones, optimización SEO y asegurar que el sitio se sienta tanto interactivo como agradable de explorar. El diseño fue un esfuerzo colaborativo con un amigo, y juntos construimos un proyecto que es tanto visualmente impactante como significativo. El sitio demuestra cómo un desarrollo reflexivo y el trabajo en equipo pueden transformar ideas, la web cuenta con una paleta de colores vibrante y fuentes que resaltan la vibra del proyecto.",
+        "View": "Ver Proyecto",
+        "ViewGit": "Ver en Github"
     },
     "Projects": {
         "Title": "Proyectos destacados"

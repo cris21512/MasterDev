@@ -11,7 +11,12 @@ import Otis from '../../assets/Images/Projects/Otis.webp';
 
 import Copy from '../../Components/Copy/Copy'
 
+import { useTranslation } from "react-i18next";
+
 const Projects = () => {
+
+    const [t, i18n] = useTranslation("global");
+
     return (
         <div className="Projects-style">
             <ScrollFloat
@@ -21,7 +26,7 @@ const Projects = () => {
                 scrollEnd="bottom bottom-=40%"
                 stagger={0.03}
             >
-                Featured Projects
+                {t("Projects.Title")}
             </ScrollFloat>
             <div className="Center-projects">
                 <ElectricBorder
@@ -48,12 +53,12 @@ const Projects = () => {
                         <h1 className="name-project" >CrazyDev</h1>
                         <Copy>
                             <p style={{ margin: '6px 0 0', opacity: 0.8}}>
-                                A personal website that embodies my approach to modern web development and user-centered design. Built as an elegant digital business card, it features a clean structure, smooth interactions, and a strong focus on visual aesthetics. The site stands out for its intuitive navigation, responsive design, legible typography, and a professional color palette. In the projects section, each work is presented with careful attention to both functionality and visual detail—reinforcing the idea that code can also be art.
+                                {t("Tools.Project1")}
                             </p>
                         </Copy>
                         <div className="buttons-style">
-                            <a href="https://crazydev-three.vercel.app/" target='_blank' rel='noopener noreferrer' ><Button text="View Project" /></a>
-                            <a href="https://github.com/cris21512/Crazydev" target='_blank' rel='noopener noreferrer' ><Button text="View on Github" /></a>
+                            <a href="https://crazydev-three.vercel.app/" target='_blank' rel='noopener noreferrer' ><Button text={t("Tools.View")} /></a>
+                            <a href="https://github.com/cris21512/Crazydev" target='_blank' rel='noopener noreferrer' ><Button text={t("Tools.ViewGit")} /></a>
                         </div>
                     </div>
                 </ElectricBorder>
@@ -81,12 +86,12 @@ const Projects = () => {
                         <h1 className="name-project" >Otis Valen</h1>
                         <Copy>
                             <p style={{ margin: '6px 0 0', opacity: 0.8 }}>
-                                A dynamic website that highlights my ability to bring ideas to life through clean code and engaging user experiences. My role focused on frontend development, animations, SEO optimization, and ensuring the site feels both interactive and enjoyable to explore. The design was a collaborative effort with a friend, and together we built a project that is both visually striking and impactful. The site demonstrates how thoughtful development and teamwork can transform ideas.
+                                {t("Tools.Project2")}
                             </p>
                         </Copy>
                         <div className="buttons-style">
-                            <a href="https://otis-valen-nine.vercel.app/" target='_blank' rel='noopener noreferrer' ><Button text="View Project" /></a>
-                            <a href="https://github.com/cris21512/Otis-Valen" target='_blank' rel='noopener noreferrer' ><Button text="View on Github" /></a>
+                            <a href="https://otis-valen-nine.vercel.app/" target='_blank' rel='noopener noreferrer' ><Button text={t("Tools.View")} /></a>
+                            <a href="https://github.com/cris21512/Otis-Valen" target='_blank' rel='noopener noreferrer' ><Button text={t("Tools.ViewGit")} /></a>
                         </div>
                     </div>
                 </ElectricBorder>
