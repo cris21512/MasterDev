@@ -9,8 +9,8 @@ import 'lenis/dist/lenis.css'
 import { I18nextProvider } from 'react-i18next'
 import i18next from 'i18next'
 
-import global_es from './Locales/es/global.json'
-import global_en from './Locales/en/global.json'
+import global_es from './locales/es/global.json'
+import global_en from './locales/en/global.json'
 
 i18next.init({
   interpolation: {escapeValue: false},
