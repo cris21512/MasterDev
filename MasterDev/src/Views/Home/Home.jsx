@@ -37,7 +37,6 @@ const Home = () => {
   return (
     <>
       <div className="Home-style">
-        {/* Fondo líquido */}
         <div
           style={{
             width: "100%",
@@ -66,7 +65,6 @@ const Home = () => {
           />
         </div>
 
-        {/* Menú sobre todo */}
         <div style={{ position: "fixed", top: 0, width: "100%", height:"80vh" , zIndex: 11, paddingRight: "1rem" }}>
           <StaggeredMenu
             position="right"
@@ -85,7 +83,6 @@ const Home = () => {
           />
         </div>
 
-        {/* Contenido principal */}
         <div className="content-home">
           <img src={MasterDev} alt="MasterDev" className="img-home" />
           <h1 style={{ fontSize: "4rem" }}>MasterDev</h1>
