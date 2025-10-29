@@ -65,7 +65,7 @@ const Home = () => {
           />
         </div>
 
-        <div style={{ position: "fixed", top: 0, width: "100%", height:"80vh" , zIndex: 11, paddingRight: "1rem" }}>
+        <div style={{ position: "absolute", top: 0, width: "100%", height:"80vh" , zIndex: 11, paddingRight: "1rem" }}>
           <StaggeredMenu
             position="right"
             items={menuItems}
