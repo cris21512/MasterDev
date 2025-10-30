@@ -41,6 +41,9 @@ export const StaggeredMenu = ({
   const itemEntranceTweenRef = useRef(null);
 
   useEffect(() => {
+
+    if (window.innerWidth < 768) return;
+
     const ctx = gsap.context(() => {
       const panel = panelRef.current;
       const preContainer = preLayersRef.current;
@@ -64,6 +67,7 @@ export const StaggeredMenu = ({
       gsap.set(textInner, { yPercent: 0 });
       if (toggleBtnRef.current) gsap.set(toggleBtnRef.current, { color: menuButtonColor });
     });
+    
     return () => ctx.revert();
   }, [menuButtonColor, position]);
 
