@@ -1,7 +1,7 @@
 import React from "react";
 import './Projects.css';
 
-import ElectricBorder from '../../Components/ElectricBorder/ElectricBorder';
+import ElectricBorderWrapper from '../../Components/ElectricBorder/ElectricBorderWrapper';
 import ScrollFloat from "../../Components/ScrollFloat/ScrollFloat";
 
 import Button from '../../Components/Buttons/ButtonsProject/Button'
@@ -29,7 +29,7 @@ const Projects = () => {
                 {t("Projects.Title")}
             </ScrollFloat>
             <div className="Center-projects">
-                <ElectricBorder
+                <ElectricBorderWrapper
                     color="#3b73af"
                     speed={1}
                     chaos={0.5}
@@ -61,8 +61,8 @@ const Projects = () => {
                             <a href="https://github.com/cris21512/Crazydev" target='_blank' rel='noopener noreferrer' ><Button text={t("Tools.ViewGit")} /></a>
                         </div>
                     </div>
-                </ElectricBorder>
-                <ElectricBorder
+                </ElectricBorderWrapper>
+                <ElectricBorderWrapper
                     color="#3b73af"
                     speed={1}
                     chaos={0.5}
@@ -94,7 +94,7 @@ const Projects = () => {
                             <a href="https://github.com/cris21512/Otis-Valen" target='_blank' rel='noopener noreferrer' ><Button text={t("Tools.ViewGit")} /></a>
                         </div>
                     </div>
-                </ElectricBorder>
+                </ElectricBorderWrapper>
             </div>
         </div>
     );
