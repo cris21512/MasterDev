@@ -1,7 +1,7 @@
 import React, { useCallback, useEffect, useRef, useState } from 'react';
 import { gsap } from 'gsap';
 import './Staggered-menu.css';
-
+import { useTranslation } from 'react-i18next';
 export const StaggeredMenu = ({
   position = 'right',
   colors = ['#B19EEF', '#5227FF'],
@@ -313,6 +313,8 @@ export const StaggeredMenu = ({
     animateText(target);
   }, [playOpen, playClose, animateIcon, animateColor, animateText, onMenuOpen, onMenuClose]);
 
+  const [t, i18n] = useTranslation("global");
+
   return (
     <div
       className={(className ? className + ' ' : '') + 'staggered-menu-wrapper' + (isFixed ? ' fixed-wrapper' : '')}
@@ -390,8 +392,24 @@ export const StaggeredMenu = ({
             <div className="sm-socials" aria-label="Social links">
               <h3 className="sm-socials-title">Languages</h3>
               <ul className="sm-socials-list" role="list">
-                <h1 className="sm-socials-link" >ES</h1>
-                <h2 className="sm-socials-link" >EN</h2>
+                <button 
+                style={{ 
+                  background: 'none', 
+                  border: 'none' 
+                  }}
+                onClick={ () => i18n.changeLanguage("es")}
+                >
+                  <h1 className="sm-socials-link" >ES</h1>
+                </button>
+                <button 
+                style={{ 
+                  background: 'none', 
+                  border: 'none' 
+                  }}
+                onClick={ () => i18n.changeLanguage("en")}
+                >
+                  <h1 className="sm-socials-link" >EN</h1>
+                </button>
               </ul>
             </div>
           )}
