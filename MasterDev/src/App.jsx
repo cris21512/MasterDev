@@ -1,8 +1,6 @@
 import { useState } from 'react'
 import './App.css'
 
-import StaggeredMenu from './Components/Staggered-menu/Staggered-menu'
-
 import Home from './Views/Home/Home'
 import About from './Views/About/About'
 import Tools from './Views/Tools/Tools'

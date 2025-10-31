@@ -29,7 +29,7 @@ export const StaggeredMenu = ({
   const iconRef = useRef(null);
   const textInnerRef = useRef(null);
   const textWrapRef = useRef(null);
-  const [textLines, setTextLines] = useState(['+', 'Close']);
+  const [textLines, setTextLines] = useState(['+', 'close']);
 
   const openTlRef = useRef(null);
   const closeTweenRef = useRef(null);
@@ -274,8 +274,8 @@ export const StaggeredMenu = ({
     if (!inner) return;
     textCycleAnimRef.current?.kill();
 
-    const currentLabel = opening ? '+' : 'Close';
-    const targetLabel = opening ? 'Close' : '+';
+    const currentLabel = opening ? '+' : '-';
+    const targetLabel = opening ? '-' : '+';
     const cycles = 3;
     const seq = [currentLabel];
     let last = currentLabel;
@@ -351,7 +351,7 @@ export const StaggeredMenu = ({
           onClick={toggleMenu}
           type="button"
         >
-          <span ref={textWrapRef} className="sm-toggle-textWrap" aria-hidden="true">
+          <span ref={textWrapRef} className="sm-toggle-textWrap" aria-hidden="true" style={{ fontSize: '2rem'  }}>
             <span ref={textInnerRef} className="sm-toggle-textInner">
               {textLines.map((l, i) => (
                 <span className="sm-toggle-line" key={i}>
@@ -388,15 +388,10 @@ export const StaggeredMenu = ({
           </ul>
           {displaySocials && socialItems && socialItems.length > 0 && (
             <div className="sm-socials" aria-label="Social links">
-              <h3 className="sm-socials-title">Socials</h3>
+              <h3 className="sm-socials-title">Languages</h3>
               <ul className="sm-socials-list" role="list">
-                {socialItems.map((s, i) => (
-                  <li key={s.label + i} className="sm-socials-item">
-                    <a href={s.link} target="_blank" rel="noopener noreferrer" className="sm-socials-link">
-                      {s.label}
-                    </a>
-                  </li>
-                ))}
+                <h1 className="sm-socials-link" >ES</h1>
+                <h2 className="sm-socials-link" >EN</h2>
               </ul>
             </div>
           )}
