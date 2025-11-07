@@ -26,16 +26,14 @@ const About = () => {
                     >
                     {t("About.Title")}
                     </ScrollFloat>
-                    <Copy>
                     <p>
-                        {t("About.text1")}
+                        <Copy><p>{t("About.text1")}</p></Copy>
                         <br />• Crazydev
                         <br />• WYK Homes
                         <br />• Otis-Valen
                         <br />
-                        {t("About.text2")}
+                        <Copy><p>{t("About.text2")}</p></Copy>
                     </p>
-                    </Copy>
                 </div>
                 <img src={Master} alt="Master" style={{ width: '350px', height: 'auto', borderRadius: '1rem' }} />
             </div>
