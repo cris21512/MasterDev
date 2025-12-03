@@ -28,6 +28,9 @@ const Projects = () => {
             >
                 {t("Projects.Title")}
             </ScrollFloat>
+
+            
+
             <div className="Center-projects">
                 <ElectricBorderWrapper
                     color="#3b73af"
