@@ -2,10 +2,12 @@ import React from 'react';
 
 import './ProjectsPage.css';
 
+import ElectricBorderWrapper from '../../Components/ElectricBorder/ElectricBorderWrapper';
+
 const ProjectsPage = () => {
     return (
         <div className="ProjectsPage-style">
-            <h1>Projects Page</h1>
+            <p>che mirá</p>
         </div>
     )
 }
