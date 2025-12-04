@@ -34,7 +34,6 @@ const About = () => {
                         <br />
                         <Copy><p>{t("About.text2")}</p></Copy>
                     </p>
-                    <a href="/about"><button>Vamos al infinito</button></a>
                 </div>
                 <img src={Master} alt="Master" style={{ width: '350px', height: 'auto', borderRadius: '1rem' }} />
             </div>
