@@ -8,6 +8,8 @@ import { useTranslation } from "react-i18next";
 
 import Gym from '../../assets/Images/Projects/Gym.webp';
 import Sky from '../../assets/Images/Projects/Sky.webp';
+import CYC from '../../assets/Images/Projects/chitoycris.png';
+import WYK from '../../assets/Images/Projects/house.webp';
 
 import Copy from '../../Components/Copy/Copy'
 import Button from '../../Components/Buttons/ButtonsProject/Button'
@@ -52,7 +54,7 @@ const ProjectsPage = () => {
                             <a href="https://github.com/cris21512/Crazydev" target='_blank' rel='noopener noreferrer' ><Button text={t("Tools.ViewGit")} /></a>
                         </div>
                     </div>
-                </ElectricBorderWrapper>               
+                </ElectricBorderWrapper>             
                 <ElectricBorderWrapper
                     color="#3b73af"
                     speed={1}
@@ -89,8 +91,72 @@ const ProjectsPage = () => {
                 </div>
 
                 <div className="projects-row">
-                    <div className="project-card">Proyecto 3</div>
-                    <div className="project-card">Proyecto 4</div>
+                <ElectricBorderWrapper
+                    color="#3b73af"
+                    speed={1}
+                    chaos={0.5}
+                    thickness={2}
+                    style={{ 
+                        borderRadius: 16,
+                        width: '90%',
+                        maxWidth: '500px',
+                        padding: '10px',
+                        marginTop: '40px',
+                        height: 'max-content',
+                        minHeight: '400px',
+                        justifyContent: 'center',
+                        alignItems: 'center',
+                        display: 'flex',
+                        flexDirection: 'column',
+                    }}
+                >
+                    <div className="box-content">
+                        <img src={CYC} alt="Chito y Cris" className="img-project" />
+                        <h1 className="name-project" >Chito y Cris</h1>
+                        <Copy>
+                            <p style={{ margin: '6px 0 0', opacity: 0.8}}>
+                                {t("Tools.Project3")}
+                            </p>
+                        </Copy>
+                        <div className="buttons-style">
+                            <a href="https://chito-y-cris.vercel.app/" target='_blank' rel='noopener noreferrer' ><Button text={t("Tools.View")} /></a>
+                            <a href="https://github.com/cris21512/Chito-Y-Cris" target='_blank' rel='noopener noreferrer' ><Button text={t("Tools.ViewGit")} /></a>
+                        </div>
+                    </div>
+                </ElectricBorderWrapper>           
+                <ElectricBorderWrapper
+                    color="#3b73af"
+                    speed={1}
+                    chaos={0.5}
+                    thickness={2}
+                    style={{ 
+                        borderRadius: 16,
+                        width: '90%',
+                        maxWidth: '500px',
+                        padding: '10px',
+                        marginTop: '40px',
+                        height: 'max-content',
+                        minHeight: '400px',
+                        justifyContent: 'center',
+                        alignItems: 'center',
+                        display: 'flex',
+                        flexDirection: 'column',
+                    }}
+                >
+                    <div className="box-content">
+                        <img src={WYK} alt="WYK HOMES" className="img-project" />
+                        <h1 className="name-project" >WYK Homes</h1>
+                        <Copy>
+                            <p style={{ margin: '6px 0 0', opacity: 0.8}}>
+                                {t("Tools.Project3")}
+                            </p>
+                        </Copy>
+                        <div className="buttons-style">
+                            <a href="https://wyk-homes.vercel.app/" target='_blank' rel='noopener noreferrer' ><Button text={t("Tools.View")} /></a>
+                            <a href="https://github.com/cris21512/WYK-Homes" target='_blank' rel='noopener noreferrer' ><Button text={t("Tools.ViewGit")} /></a>
+                        </div>
+                    </div>
+                </ElectricBorderWrapper>
                 </div>
 
                 <div className="projects-row">
