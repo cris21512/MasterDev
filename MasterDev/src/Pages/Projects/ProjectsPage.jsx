@@ -85,7 +85,7 @@ const ProjectsPage = () => {
                         <h1 className="name-project" >SkyBound</h1>
                         <Copy>
                             <p style={{ margin: '6px 0 0', opacity: 0.8}}>
-                                {t("Tools.Project3")}
+                                {t("Tools.Project4")}
                             </p>
                         </Copy>
                         <div className="buttons-style">
