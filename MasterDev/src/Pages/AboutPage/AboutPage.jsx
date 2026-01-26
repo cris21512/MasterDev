@@ -1,11 +1,13 @@
-import React from 'react';
-
 import './AboutPage.css';
+
+import FuzzyText from '../../Components/Buttons/404/FuzzyText';
 
 const AboutPage = () => {
     return (
         <div className="AboutPage-style">
-            <h1>About Page</h1>
+            <FuzzyText baseIntensity={0.1}>
+                Still coding. Come back soon :D
+            </FuzzyText>
         </div>
     )
 }

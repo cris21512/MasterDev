@@ -92,6 +92,8 @@ const ProjectsPage = () => {
                             <a href="https://skyboundlp.vercel.app/" target='_blank' rel='noopener noreferrer' ><Button text={t("Tools.View")} /></a>
                             <a href="https://github.com/cris21512/Crazydev" target='_blank' rel='noopener noreferrer' ><Button text={t("Tools.ViewGit")} /></a>
                         </div>
+
+                        <p style={{ color: "#cfcfcf", fontSize: "14px" }}></p>
                     </div>
                 </ElectricBorderWrapper>
                 </div>
