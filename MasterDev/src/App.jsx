@@ -55,7 +55,6 @@ function App() {
       {currentPath === '/about' && <AboutPage />}
       {currentPath === '/projects' && <ProjectsPage />}
       {currentPath === '/contact' && <ContactPage />}
-      defaultComponent= {<Page404 />}
     </main>
   )
 }
