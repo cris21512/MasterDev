@@ -192,7 +192,7 @@ const ProjectsPage = () => {
                         <h1 className="name-project" >Design-Dev</h1>
                         <Copy>
                             <p style={{ margin: '6px 0 0', opacity: 0.8}}>
-                                {t("Tools.Project3")}
+                                {t("Tools.Project7")}
                             </p>
                         </Copy>
                         <div className="buttons-style">
@@ -228,7 +228,7 @@ const ProjectsPage = () => {
                         <h1 className="name-project" >CASAS</h1>
                         <Copy>
                             <p style={{ margin: '6px 0 0', opacity: 0.8}}>
-                                {t("Tools.Project3")}
+                                {t("Tools.Project8")}
                             </p>
                         </Copy>
                         <div className="buttons-style">
