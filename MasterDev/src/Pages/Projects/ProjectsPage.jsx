@@ -241,6 +241,9 @@ const ProjectsPage = () => {
                     </div>
                 </ElectricBorderWrapper>
                 </div>
+                <div className="projects-row">
+                    <a href="https://masterdev.vercel.app/" rel='noopener noreferrer' ><Button text="Back to home" /></a>
+                </div>
             </section>
         </div>
     );
